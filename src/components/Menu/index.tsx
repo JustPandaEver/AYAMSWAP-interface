@@ -80,7 +80,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/bscswap/contracts'
+const CODE_LINK = 'https://github.com/justpandaever'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -101,17 +101,17 @@ export default function Menu() {
             <PieChart size={14} />
             Analytics
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/xjNuc56">
+          <MenuItem id="link" href="https://t.me/PandaEverx">
             <MessageCircle size={14} />
-            Discord
+            Telegram
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href={getEtherscanLink(chainId, '0xd954551853F55deb4Ae31407c423e67B1621424A', 'address')}>
+          <MenuItem id="link" href={getEtherscanLink(chainId, '0xee352b87a2858e1eca6dd16e5d19781549e2d2d4', 'address')}>
             <BookOpen size={14} />
-            BscScan Contract
+            AYAM contract
           </MenuItem>
         </MenuFlyout>
       )}
